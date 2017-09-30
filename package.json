@@ -1,0 +1,22 @@
+{
+  "name": "secret-board",
+  "version": "1.0.0",
+  "description": "秘密の匿名掲示板",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaigaMikami/secret-board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaigaMikami/secret-board/issues"
+  },
+  "homepage": "https://github.com/TaigaMikami/secret-board#readme",
+  "dependencies": {
+    "jade": "^1.11.0"
+  }
+}
