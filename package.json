@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/TaigaMikami/secret-board#readme",
   "dependencies": {
+    "http-auth": "^2.2.8",
     "jade": "^1.11.0"
   }
 }
