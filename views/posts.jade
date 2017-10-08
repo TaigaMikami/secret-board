@@ -32,9 +32,10 @@ body(class="container")
         if isPostedByAdmin
           span #{post.id} : 管理者 ★
         else
-          span #{post.id} : ID:#{post.trackingCookie}
+          - var originalTrackingId = post.trackingCookie ? post.trackingCookie.split('_')[0] : ''
+          span #{post.id} : ID:#{originalTrackingId}
         div(class="panel-body")
-          p!= post.content
+          p(style="white-space:pre;") #{post.content}
         div(class="panel-footer")
           div 投稿日時: #{post.formattedCreatedAt}
           - var isAdmin = (user === 'admin')
